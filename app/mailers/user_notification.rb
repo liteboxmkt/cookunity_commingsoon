@@ -9,6 +9,6 @@ class UserNotification < ActionMailer::Base
   def subscription(user_email)
     @greeting = "Hi"
     @user_email = user_email
-    mail to: "info@cookunity.us"
+    mail to: "cookunity.us@gmail.com"
   end
 end
