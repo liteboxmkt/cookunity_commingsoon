@@ -12,7 +12,7 @@ ActionMailer::Base.smtp_settings = {
     :port                 => 587,
     :domain               => "gmail.com",
     :user_name            => "cookunity.us@gmail.com", #Your user name
-    :password             => "Matias299", # Your password
+    :password             => "597dolores", # Your password
     :authentication       => :plain
 }
 # Initialize the rails application
