@@ -45,7 +45,7 @@
   <!-- Page title -->
   <div class="row-fluid">
     <div class="page-title span12">
-      <h1>Coming Soon</h1>
+      <!-- h1>Coming Soon</h1 -->
     </div>
   </div>
 
@@ -62,18 +62,32 @@
   <!-- Page description -->
   <div class="row-fluid">
     <div class="page-description span6" style="width:70%">
-      <p>Cookunity is a community marketplace, connecting eaters and amateur cooks.</p>
+      <!--p>Cookunity is a community marketplace, connecting eaters and amateur cooks.</p>
       <p>It allows eaters to enjoy an accessible, tasty, homemade meal in their homes, while amateur cooks can share their love for cooking and make their first steps into the professional cooking world. </p>
-      <p>Leave us your email address and we’ll let you know when the site is ready!</p>
+      <p>Leave us your email address and we’ll let you know when the site is ready!</p-->
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
     </div>
   </div>
 
   <!-- Subscription form -->
-  <div class="row-fluid">
-    <div class="subscription-form span12">
-      <%= form_tag "/home/send_mail", class:"form-inline" do %>
+  <div class="row-fluid" >
+    <div class="subscription-form span12" >
+      <%= form_tag "/home/send_mail", class:"form-inline", style: "margin-left: 40px;" do %>
         <%= text_field_tag :email,"", placeholder:"Enter your email..." %>
-        <%= submit_tag "Subscribe", class:"btn" %>
+        <%= submit_tag "Subscribe for Updates", class:"btn" %>
       <% end %>
       <div class="success-message"></div>
       <div class="error-message"></div>
@@ -88,7 +102,7 @@
   </div-->
 
   <!-- Footer -->
-  <div class="footer row-fluid" style="margin-top:171px">
+  <div class="footer row-fluid" style="margin-top:192px">
     <div class="tweets span4">
       <!--div class="show-tweets"></div-->
     </div>
