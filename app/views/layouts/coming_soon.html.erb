@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <%= tag :meta, name: "viewport", content: "width=device-width, initial-scale=1.0" %>
   <meta charset="utf-8">
   <title>Cookunity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,7 +87,7 @@
     <div class="subscription-form span12" >
       <%= form_tag "/home/send_mail", class:"form-inline", style: "margin-left: 40px;" do %>
         <%= text_field_tag :email,"", placeholder:"Enter your email..." %>
-        <%= submit_tag "Subscribe for Updates", class:"btn" %>
+        <%= submit_tag "Subscribe", class:"btn" %>
       <% end %>
       <div class="success-message"></div>
       <div class="error-message"></div>
