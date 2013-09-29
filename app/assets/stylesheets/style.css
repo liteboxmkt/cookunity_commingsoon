@@ -10,10 +10,11 @@
 
 
 body {
-    background: url(/assets/1.jpg) repeat-x;
+    background: url(/assets/1.jpg) no-repeat;
     text-align: left;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
+	background-size: cover;
 }
 
 ::-moz-selection { background: #ff7f6b; color: #fff; text-shadow: none; }
